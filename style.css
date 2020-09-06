@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  p {
+    color: #333;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  // Twitter
+  .twitter {
+    &:hover {
+      a {
+        transform: rotate(-45deg) scale(1.05);
+      }
+  
+      i {
+        color: lighten(#00aced, 10%);
+      }
+    }
+  
+    a {
+      bottom: -40px;
+      right: -75px;
+      transform: rotate(-45deg);
+    }
+  
+    i {
+      bottom: 7px;
+      right: 7px;
+      color: #00aced;
+    }
+  }
+  
+  .social-icon {
+    a {
+      position: absolute;
+      background: white;
+      color: white;
+      box-shadow: -1px -1px 20px 0px rgba(0, 0, 0, 0.3);
+      display: inline-block;
+      width: 150px;
+      height: 80px;
+      transform-origin: 50% 50%;
+      transition: 0.15s ease-out;
+    }
+  
+    i {
+      position: absolute;
+      pointer-events: none;
+      z-index: 1000;
+      transition: 0.15s ease-out;
+    }
+  }
+  
+  // YouTube
+  
+  .youtube {
+    &:hover {
+      a {
+        transform: rotate(45deg) scale(1.05);
+      }
+  
+      i {
+        color: lighten(#e62117, 10%);
+      }
+    }
+  
+    a {
+      bottom: -40px;
+      left: -75px;
+      transform: rotate(45deg);
+    }
+  
+    i {
+      bottom: 7px;
+      left: 7px;
+      color: #e62117;
+    }
+  }
+  
